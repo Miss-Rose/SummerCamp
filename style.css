@@ -1,0 +1,203 @@
+*{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+
+	width: 100%;
+	height: auto;
+    background-image: url(images/background.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+footer {
+	background-color:white;
+}
+
+div{
+	box-sizing: border-box;
+}
+.container-small{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.container-full{
+	margin-left: 20%;
+}
+.title-for-all{
+	color: #63536b;
+	text-transform: uppercase;
+	font-size: 30px;
+	
+}
+
+
+
+
+/***************** header***********************/
+.head {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.logo{
+	text-align: left;
+}
+.contacts{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 0.7%;
+	align-content: center;
+	text-align: right;
+}
+.logo img {
+	height: 100px;
+	width: 100px;
+}
+
+/***************main page*********************/
+.first-page{
+	display: grid;
+	grid-template-columns:75% 3%;
+	grid-gap: 22%;
+	padding-top: 200px;
+	padding-bottom: 150px;
+	
+}
+.main-page{
+	display: grid;
+	grid-template-columns: 1fr;
+	/*justify-content: center;*/
+	text-align:center;
+	
+}
+.eng-heading{
+	color: #a354a5;
+	font-size: 80px;
+	padding-bottom:1.5%;
+	text-align:center;
+
+}
+.ukr-heading{
+	color: white;
+	text-transform: uppercase;
+	font-size: 36px;
+	padding-bottom: 0.7%;
+	
+}
+.period{
+	color: white;
+	font-size: 24px;
+	padding-bottom:20px;
+	text-transform: uppercase;
+	
+}
+.click-button{
+	padding-top: 57px;
+	padding-bottom: 180px;
+}
+.my-button {
+	color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-decoration: none;
+	background-color:#a354a5;
+	padding: 17px 57px;
+	border-radius: 3px;
+}
+.networks{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 10px;
+	align-content: center;
+	text-align: right;
+}
+.networks img{
+	height: 30px;
+	width: 30px;
+}
+
+/********************Основні заняття*************************/
+.lessons {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-top: 98px;
+	padding-bottom: 90px;
+}
+.subtitle-3{
+	padding-bottom: 70px;
+}
+.title-for-all{
+	text-align: center;
+}
+
+.subjects-galery{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
+	grid-gap: 50px;
+}
+.galery-image img{
+	height: 60px;
+	width: 60px;
+}
+.caption{
+	font-size: 18px;
+	color: #63536b;
+	text-transform: uppercase;
+	padding-top: 18px;
+	
+}
+
+/******************. Про нас *******************/ 
+.subtitle-4 {
+	background-color: white;
+	padding-top: 34px;
+	padding-bottom: 34px;
+}
+
+.description{
+	padding:20px 70px ;
+	font-size: 18px;
+	color: black;
+	line-height: 1.5;
+}
+
+/*****************5. розваги******************/
+.entertainment{
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-top: 90px ;
+	padding-bottom: 190px;
+}
+.subtitle-5{
+	padding-bottom:55px;
+}
+.entertainment-galery{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+	grid-gap: 50px;
+}
+.entertainment img{
+	height: 50px;
+	width: 50px;
+}
+
+/************************6. футер*****************/
+.foot {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+.foot>.logo{
+	text-align: center;
+}
+.foot>.networks{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
